@@ -34,7 +34,7 @@
 
             for (int i = 0; i < vectorSize; i++)
             {
-                Console.WriteLine("x = " + t[i] + ", y = " + (coefficients[0] + coefficients[1] * t[i] + coefficients[2] * Math.Pow(t[i], 2.0)));
+                Console.WriteLine("t = " + t[i] + ", C = " + (coefficients[0] + coefficients[1] * t[i] + coefficients[2] * Math.Pow(t[i], 2.0)));
             }
         }
     }
